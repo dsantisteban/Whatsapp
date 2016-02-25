@@ -1,0 +1,44 @@
+/*Inserta tu css aqui*/
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+p{
+	margin:0;
+}
+header{
+	background-color: #009688;
+	height: 14vh;
+	width: 100%;	
+}
+section{
+	background-color: #DFDFDF;
+	height: 86vh;
+	width: 100%;	
+}
+
+header .container{
+	padding-top: 1%;	 
+}
+header .col-md-4:nth-child(1){
+	 
+}
+header .col-md-4:nth-child(1), 
+header .col-md-8:nth-child(2){
+	background: #EEEEEE;
+	padding: 0.8%;	
+}
+header img{
+	border-radius: 100px;
+	height: 5vh;
+	width: 5vh;
+}
+header .col-md-4:nth-child(1) span,
+header .col-md-8:nth-child(2) span{
+	float: right;
+}
+
+header .col-md-8:nth-child(2) div{
+	display: inline-block;
+}
