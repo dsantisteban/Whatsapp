@@ -3,9 +3,7 @@
 	margin:0;
 	padding: 0;
 	box-sizing: border-box;
-
 }
-
 p{
 	margin:0;
 }
@@ -23,8 +21,7 @@ p{
 	clear: both;
 }
 body {
-	background-color: #DFDFDF;
-
+	background-color: ;
 }
 header{
 	background-color: #009688;
@@ -34,6 +31,7 @@ header{
 .container{
 	position: relative;
 	top:-110px;	
+	box-shadow: 0px 0.5px 5px gray;
 }
 .container img{
 	border-radius: 50%;
@@ -41,68 +39,58 @@ header{
 	width: 6vh;	
 	overflow: hidden;
 	margin: 0px 12px 0 0px;
-	
-	
 }
-.row .col-md-4 .one, 
-.row .col-md-8 .two{
+.col-md-4 .one, 
+.col-md-8 .two{
 	background-color:#EEEEEE;
 	padding:2%;
 	border-bottom: 1px solid #DEDEDE;
 	border-right: 1px solid #DEDEDE;
 }
-.row .col-md-4 .message{
+.col-md-4 .message{
 	height: 505px;
 }
-.row .col-md-8 .two{
+.col-md-8 .two{
 	padding:1.1%;
 }
-.row .col-md-4 .one div:nth-child(2) {
+.col-md-4 .one div:nth-child(2) {
 	padding: 2%;	
 }
-.row .col-md-8 .two div:nth-child(3){
+.col-md-8 .two div:nth-child(3){
 	padding: 1% 2%;
 }
-.row .col-md-4 .one-two, 
-.row .col-md-4 .one-three{
+.col-md-4 .one-two, 
+.col-md-4 .one-three{
 	background-color: white;	
 }
-.row .col-md-4 .one-three{
+.col-md-4 .one-three{
 	padding: 2% 3%;
 }
-.row .col-md-4 .one-two{
+.col-md-4 .one-two{
 	padding: 3% 4%;
 	position: relative;
 }
-.row .col-md-4 .one-two span{
+.col-md-4 .one-two span{
 	position: absolute;
-	padding: 3%;
+	padding: 2.5%;
 }
-.row .col-md-4 .one-two input{
+.col-md-4 .one-two input{
 	width: 100%;
-	padding: 2% 0% 2% 10%;
-	border-radius: 5px;
-	border: 1px solid #DEDEDE;
+	padding: 1.5% 0% 1% 10%;
 }
-.row .col-md-4 .one-three{
+.col-md-4 .one-three{
 	border-top:1px solid #D0D0D0;
-}
-.message{
-	height: 530px;
 }
 .scroll {
 	overflow-y: scroll;	
 }
-/* Let's get this party started */
 ::-webkit-scrollbar {
 	width: 5px;
 }
-/* Track */
 ::-webkit-scrollbar-track {
 	-webkit-box-shadow: inset 0 0 6px white; 
 	background: white;
 }
-/* Handle */
 ::-webkit-scrollbar-thumb {
 	background: #CBCBCB; 
 }
@@ -111,14 +99,19 @@ header{
 }
 .two-two{
 	background: #EBE6E0 url("../image/chat-panel-bg.png");
-	height: 512px;
+	height: 505px;
 	padding:3% 4% 0% 3%;
 }
-.row .col-md-4 .one-three div:nth-child(2) p{
+.col-md-4 .one-three div:nth-child(2) p{
 	padding-left: 4%;
 }
-.row .col-md-4 .one-three div:nth-child(2) p:nth-child(1){
+.col-md-4 .one-three div:nth-child(2) p:nth-child(1){
 	padding-bottom: 5%;
+}
+.one div span, 
+.two div span{
+	color:#747474;
+	font-size: 20px;
 }
 .col-md-8 .two div:nth-child(2) p:nth-child(2), 
 .message .one-three div:nth-child(2) span:nth-child(2),
@@ -145,22 +138,23 @@ header{
 }
 .two-two .chat1, 
 .two-two .chat2 {
-	height: 0 auto;
 	border-radius: 8px;
 	padding:1% 1% 0% 2%;
-	margin-bottom:0.35%;
+	margin-bottom:0.25%;
 }
 .two-three{
 	background-color: #F2F0EE;
-	height: 0 auto;
-	padding: 1.35%;
+	padding: 0.9%;
 }
-.two-three input {
-	width: 92%;
-	padding: 0.5% 0% 0.5% 2%;
-	margin: 0% 0% 0% 3%;
+.two-three input{
+	width: 88%;
+	padding: 1% 0% 0.5% 1%;	
+}
+.col-md-4 .one-two input,  
+.two-three input{
 	border-radius: 5px;
-	border: 1px solid #DEDEDE;
+	border: 1px solid #F0F0F0;
+	font-size: 12px;
 }
 .text-right{
 	text-align: right;
@@ -177,17 +171,11 @@ header{
 .color-4{
 	color:#E0B60F;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.two-three div {
+    padding: 0% 1.5% 0% 0%;
+    font-size: 25px;
+}
+.col-md-4 .one-two span, 
+.two-three div span{
+    color:#AAA9A6;
+}
