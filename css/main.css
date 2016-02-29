@@ -59,8 +59,8 @@ header{
 .col-md-8 .two div:nth-child(3){
 	padding: 1% 2%;
 }
-.col-md-4 .one-two, 
-.col-md-4 .one-three{
+.col-md-4 .one-two,
+.col-md-4 .message{
 	background-color: white;	
 }
 .col-md-4 .one-three{
@@ -83,6 +83,7 @@ header{
 }
 .scroll {
 	overflow-y: scroll;	
+	height: 505px;
 }
 ::-webkit-scrollbar {
 	width: 7px;
@@ -96,7 +97,7 @@ header{
 .two-two{
 	background: #EBE6E0 url("../image/chat-panel-bg.png");
 	height: 505px;
-	padding:3% 4% 0% 3%;
+	padding:3.5% 4% 0% 3%;
 }
 .col-md-4 .one-three div:nth-child(2) p{
 	padding-left: 4%;
